@@ -10,8 +10,8 @@
 
 <p align="center">
   <a href="https://dev.m-kaos.com">🌐 Portfolio</a> •
-  <a href="mailto:your.email@example.com">📧 Email</a> •
-  <a href="https://linkedin.com/in/yourprofile">💼 LinkedIn</a>
+  <a href="mailto:maug.n@m-kaos.com">📧 Email</a> •
+  <a href="https://linkedin.com/in/mauricio-guerra-955628273/">💼 LinkedIn</a>
 </p>
 
 ---
