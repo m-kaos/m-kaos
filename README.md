@@ -79,27 +79,10 @@ Search ranking optimization and brand identity development through **Harü Studi
 
 ---
 
-## 🌟 Featured Projects
-
-### 🔹 [Kairos](https://kairos.m-kaos.com/)
-**Automation and smart systems** - Solving problems of any business with intelligent automation solutions.
-`2025` • AI Automation • n8n • Workflow Management
-
-### 🔹 [JAR Logistics](https://jar-logistics.com/)
-**Landing Page and Quoting System** - Complete web application for business logistics management with integrated quoting functionality. Mobile and desktop optimized.
-`2025` • React • Full Stack • Business Management
-
-### 🔹 [Resilient Roots & Sustainable Shoots](https://resilient-rootssustainable-shoots.m-kaos.com)
-Inspired by the life cycle of fungi, this project reimagines Chimilin's former school as a community coworking center, with residences, park, commerce, and co-creation lab.
-`2024` • Web Design • Community Project
-
----
-
 ## 📊 GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=m-kaos&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=EF4444&icon_color=EF4444&text_color=FFFFFF" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=m-kaos&theme=radical&hide_border=true&background=0D1117&ring=EF4444&fire=EF4444&currStreakLabel=EF4444" alt="GitHub Streak" height="165" />
 </p>
 
 <p align="center">
