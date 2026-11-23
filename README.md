@@ -1,142 +1,54 @@
-<h1 align="center">👋 Hi, I'm Mauricio Guerra Navarro</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/year-dark.svg">
+  <img src="./assets/year-light.svg" width="100%" alt="Mauricio Guerra, full-stack developer in Monterrey, Mexico. Last 12 months: 1,173 commits across 45 repositories on 151 active days, with a 13-day longest streak. Peak day: 107 commits on October 8, 2026.">
+</picture>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=EF4444&center=true&vCenter=true&width=435&lines=Web+Apps+Developer;AI+Automation+Specialist;Full+Stack+Engineer;DevOps+Enthusiast" alt="Typing SVG" />
-</p>
+I build the software side of a consulting agency focused on ads and growth: management systems, AI agents, Shopify stores and the landing pages that sell all of it. Almost everything I ship runs in production for businesses in Mexico and the US.
 
-<p align="center">
-  <strong>📍 Monterrey, México</strong>
-</p>
+## The last 12 months
 
-<p align="center">
-  <a href="https://dev.m-kaos.com">🌐 Portfolio</a> •
-  <a href="mailto:maug.n@m-kaos.com">📧 Email</a> •
-  <a href="https://linkedin.com/in/mauricio-guerra-955628273/">💼 LinkedIn</a>
-</p>
+**Systems**
 
----
+- A clinical management platform: public site, patient portal, operations dashboard and an agent layer, all on one electronic health record.
+- A self-service quoting panel that lets a non-technical sales team manage its own PDF quotes, connected to n8n flows.
+- A sales copilot that quotes over WhatsApp and reports to its own panel.
 
-## 🚀 About Me
+**AI agents**
 
-I'm a 20-something developer from Monterrey, México, focused on forging my own path as a professional developer and managing a successful web consulting business. My passion lies in creating **beautiful, functional web experiences** and **intelligent automation solutions** that make a real difference.
+- A bid intelligence agent that finds public tenders, scores them with AI, emails the buyers with one follow-up and qualifies their replies on a live dashboard.
+- A WhatsApp agent on n8n and Kommo for a hospitality venue, shipped with sanitized workflows and documentation.
 
-I specialize in front-end development with JavaScript frameworks, React, and Next.js. My expertise extends to DevOps and cloud management with Docker, AWS, and Google Cloud. I design and build **AI automation workflows**, **custom chatbots**, **intelligent agents**, and workflow interfaces using platforms like n8n.
+**Web**
 
-Beyond development, I also work in **sound engineering**, **design**, and **video production**.
+- An architecture firm portfolio on Next.js 15 and Payload CMS.
+- A luxury B2C site running on Cloudflare Workers.
+- Landing pages for restaurants, food brands, solar installers, logistics, insurance and health clinics.
 
----
+## Building now
 
-## 💻 Tech Stack
+**KAOS**, my personal AI system. One assistant with a single memory, a model of the world and of itself, a chat in its own panel and on WhatsApp, and hands that run jobs on a self-hosted server. 413 commits this year, more than any other project.
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind,react,js,ts,nextjs,docker,aws,gcp,firebase" />
-</p>
+## Live
 
-### 🛠️ Technologies & Tools
+| Project | What it is |
+| --- | --- |
+| [Nexo](https://w-y-system.vercel.app) | Cloud CRM and ERP layer on top of Aspel SAE: pipeline, mobile quoting over WhatsApp, collections and live dashboards |
+| [SOLPOWER](https://solpower.vercel.app) | Solar panel landing page for Monterrey |
+| [La Nación](https://la-nacion-pawnshop.vercel.app) | Pawnshop site with loans and a product catalog |
+| [Victory Tracks](https://landing-victorytracks.vercel.app) | Landing page for an athletic track repair company in the US |
 
-```text
-Frontend:      HTML5, CSS3, Tailwind CSS, React, Next.js
-Languages:     JavaScript, TypeScript
-Cloud/DevOps:  Docker, AWS, Google Cloud, Firebase
-AI/Automation: AI Agents, n8n, Custom Chatbots, Workflow Automation
-Other:         SEO, Branding, Sound Engineering, Video Production
-```
+## Stack
 
----
+| Layer | Tools |
+| --- | --- |
+| Build | TypeScript · Next.js · React · Tailwind CSS v4 · shadcn/ui · Motion · GSAP |
+| Data | PostgreSQL · Supabase · Drizzle · Payload CMS · Python |
+| Automate | Claude Code · MCP · n8n · Kommo CRM · WhatsApp |
+| Sell | Shopify (Liquid) · Klaviyo · Wix |
+| Ship | Vercel · Cloudflare Workers · Docker · self-hosted VPS |
 
-## 🎯 What I Do
+Off the keyboard: sound engineering, design and video.
 
-<table>
-<tr>
-<td width="50%">
+[Portfolio](https://dev.maugn.com) · [LinkedIn](https://www.linkedin.com/in/mauricio-guerra-955628273/)
 
-### 🤖 Automation & Smart Workflows
-Intelligent solutions for businesses using AI agents, custom chatbots, and workflow automation platforms like n8n.
-
-</td>
-<td width="50%">
-
-### 🎨 Web Design & Development
-Modern, responsive web applications built with React, Next.js, and cutting-edge frontend technologies.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 📱 App Development
-Full-stack mobile and web applications with seamless user experiences and robust backends.
-
-</td>
-<td width="50%">
-
-### 🎯 SEO & Branding
-Search ranking optimization and brand identity development through **Harü Studio**.
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=m-kaos&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=EF4444&icon_color=EF4444&text_color=FFFFFF" alt="GitHub Stats" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m-kaos&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=EF4444&text_color=FFFFFF" alt="Top Languages" />
-</p>
-
----
-
-## 🎵 Beyond Code
-
-When I'm not coding, you'll find me:
-- 🎧 **Sound Engineering** - Creating and mixing audio
-- 🎨 **Design** - Crafting visual experiences
-- 🎬 **Video Production** - Bringing stories to life
-- 🤖 **AI Experimentation** - Building intelligent agents and automation workflows
-
----
-
-## 💡 Current Focus
-
-```javascript
-const mauricio = {
-  learning: ["Advanced AI Agents", "Cloud Architecture", "DevOps Best Practices"],
-  working_on: ["Intelligent Automation Solutions", "Modern Web Applications"],
-  available_for: ["Freelance Projects", "Collaborations", "Consulting"],
-  fun_fact: "I speak multiple languages and love combining tech with creative media!"
-};
-```
-
----
-
-## 📫 Let's Connect!
-
-<p align="center">
-  <a href="https://dev.m-kaos.com">
-    <img src="https://img.shields.io/badge/Portfolio-EF4444?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
-  </a>
-  <a href="mailto:your.email@example.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://linkedin.com/in/yourprofile">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://twitter.com/yourhandle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
-  </a>
-</p>
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=m-kaos&color=EF4444&style=flat-square&label=Profile+Views" alt="Profile Views" />
-</p>
-
-<p align="center">
-  <i>⭐️ From <a href="https://github.com/m-kaos">Mauricio Guerra Navarro</a> - Building the future, one line of code at a time</i>
-</p>
+<sub>Stats count my own commits on default branches across personal and agency repositories, Nov 24, 2025 to Nov 23, 2026, pulled from the GitHub API.</sub>
