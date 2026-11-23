@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="312" viewBox="0 0 1200 312" role="img" aria-labelledby="t d">
+  <title id="t">What I build</title>
+  <desc id="d">Systems: Clinical records and scheduling, Self-serve quoting panels, WhatsApp sales copilots. AI agents: Bid intelligence agent, WhatsApp agents on n8n + Kommo, KAOS, my own AI system. Web and commerce: Next.js sites and landings, Shopify themes, Klaviyo flows, Vercel and Cloudflare Workers.</desc>
+  <style>
+    .sans{font-family:'General Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+    .mono{font-family:'Geist Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .num{font-variant-numeric:tabular-nums}
+    @media (prefers-reduced-motion:reduce){*{animation:none!important}}
+  </style>
+  <rect x="0.5" y="0.5" width="1199" height="311" rx="24" fill="#FFFFFF" stroke="#E5E5E5"/>
+  <g transform="translate(64.0 56) scale(1.25)" fill="none" stroke="#DC2626" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><rect width="7" height="9" x="3" y="3" rx="1"/><rect width="7" height="5" x="14" y="3" rx="1"/><rect width="7" height="9" x="14" y="12" rx="1"/><rect width="7" height="5" x="3" y="16" rx="1"/></g>
+  <text x="64.0" y="140" class="sans" font-size="28" fill="#0A0A0A" font-weight="600" letter-spacing="-0.5">Systems</text>
+  <text x="64.0" y="186" class="sans" font-size="20" fill="#525252">Clinical records and scheduling</text>
+  <text x="64.0" y="220" class="sans" font-size="20" fill="#525252">Self-serve quoting panels</text>
+  <text x="64.0" y="254" class="sans" font-size="20" fill="#525252">WhatsApp sales copilots</text>
+  <line x1="421.33" y1="56" x2="421.33" y2="256" stroke="#E5E5E5"/>
+  <g transform="translate(445.33 56) scale(1.25)" fill="none" stroke="#DC2626" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8V4H8"/><rect width="16" height="12" x="4" y="8" rx="2"/><path d="M2 14h2"/><path d="M20 14h2"/><path d="M15 13v2"/><path d="M9 13v2"/></g>
+  <text x="445.33" y="140" class="sans" font-size="28" fill="#0A0A0A" font-weight="600" letter-spacing="-0.5">AI agents</text>
+  <text x="445.33" y="186" class="sans" font-size="20" fill="#525252">Bid intelligence agent</text>
+  <text x="445.33" y="220" class="sans" font-size="20" fill="#525252">WhatsApp agents on n8n + Kommo</text>
+  <text x="445.33" y="254" class="sans" font-size="20" fill="#525252">KAOS, my own AI system</text>
+  <line x1="778.67" y1="56" x2="778.67" y2="256" stroke="#E5E5E5"/>
+  <g transform="translate(802.67 56) scale(1.25)" fill="none" stroke="#DC2626" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></g>
+  <text x="802.67" y="140" class="sans" font-size="28" fill="#0A0A0A" font-weight="600" letter-spacing="-0.5">Web and commerce</text>
+  <text x="802.67" y="186" class="sans" font-size="20" fill="#525252">Next.js sites and landings</text>
+  <text x="802.67" y="220" class="sans" font-size="20" fill="#525252">Shopify themes, Klaviyo flows</text>
+  <text x="802.67" y="254" class="sans" font-size="20" fill="#525252">Vercel and Cloudflare Workers</text>
+</svg>

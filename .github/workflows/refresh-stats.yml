@@ -1,0 +1,45 @@
+name: Refresh profile stats
+
+on:
+  schedule:
+    - cron: "0 12 1 * *" # 06:00 Monterrey on the 1st of every month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-stats
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect commit stats
+        env:
+          STATS_TOKEN: ${{ secrets.STATS_TOKEN }}
+          STATS_AUTHOR_EMAILS: ${{ secrets.STATS_AUTHOR_EMAILS }}
+        run: python scripts/collect_stats.py
+
+      - name: Render cards
+        run: python scripts/render_svgs.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets
+          if git diff --cached --quiet; then
+            echo "Nothing to update"
+            exit 0
+          fi
+          git commit -m "chore: refresh profile stats"
+          git push
