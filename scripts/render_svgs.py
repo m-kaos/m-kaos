@@ -5,11 +5,11 @@ import json
 import sys
 from pathlib import Path
 
-from cards import areas, cta, hero, kaos, rhythm, stack
+from cards import areas, cta, hero, now, rhythm, stack
 from cards.theme import THEMES
 
 ROOT = Path(__file__).resolve().parent.parent
-CARDS = {"hero": hero, "cta": cta, "areas": areas, "rhythm": rhythm, "kaos": kaos, "stack": stack}
+CARDS = {"hero": hero, "cta": cta, "areas": areas, "rhythm": rhythm, "now": now, "stack": stack}
 
 
 def main() -> int:

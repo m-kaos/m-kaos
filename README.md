@@ -29,8 +29,8 @@ I build the software side of a consulting agency focused on ads and growth: mana
 ## Building now
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/kaos-dark.svg">
-  <img src="./assets/kaos-light.svg" width="100%" alt="KAOS, my personal AI system: one self-hosted assistant with a shared memory, a model of itself and the world, a voice in its own panel and on WhatsApp, a brain that thinks with Claude and hands that run jobs on a VPS.">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/now-dark.svg">
+  <img src="./assets/now-light.svg" width="100%" alt="Projects in progress: SalesHub, Agency Studio, Harü Studio, Persona Club, Groovies.">
 </picture>
 
 ## Stack

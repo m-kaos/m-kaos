@@ -23,7 +23,6 @@ from pathlib import Path
 API = "https://api.github.com"
 LOGIN = "m-kaos"
 ORGS = ("SalesHub-Agency",)
-KAOS_REPO = "m-kaos/Parthenon"
 SKIP_SUFFIXES = ("-clon",)
 LOCAL_TZ = timezone(timedelta(hours=-6))  # Monterrey, no DST since 2022
 OUT = Path(__file__).resolve().parent.parent / "data" / "stats.json"
@@ -105,7 +104,6 @@ def main() -> int:
     daily = [0] * 365
     punch = [[0] * 24 for _ in range(7)]
     repos_with_commits: set[str] = set()
-    kaos_commits = 0
 
     query = urllib.parse.urlencode({
         "since": since.astimezone(timezone.utc).isoformat(),
@@ -125,7 +123,6 @@ def main() -> int:
             daily[index] += 1
             punch[when.weekday()][when.hour] += 1
             repos_with_commits.add(full_name)
-            kaos_commits += full_name == KAOS_REPO
 
     stats = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -135,7 +132,6 @@ def main() -> int:
         "repositories": len(repos_with_commits),
         "active_days": sum(1 for c in daily if c),
         "longest_streak": longest_streak(daily),
-        "kaos_commits": kaos_commits,
         "daily": daily,
         "punch": punch,
     }
